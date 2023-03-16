@@ -7,15 +7,15 @@ let number = 2000;
 console.log(city + " " + number);
 
 let messenger = 128,
-photos = 254,
-vk = 137,
-youtube = 201,
-minutesPerHour = 60;
+    photos = 254,
+    vk = 137,
+    youtube = 201,
+    minutesPerHour = 60;
 console.log((messenger + photos + vk + youtube) / minutesPerHour);
 
 let number2 = 2,
-power = 5;
-console.log(number2**power);
+    power = 5;
+console.log(number2 ** power);
 
 let quote = "Нужно бежать со всех ног, чтобы только оставаться на месте, а чтобы куда-то попасть, надо бежать как минимум вдвое быстрее!";
 console.log(quote);
@@ -37,6 +37,5 @@ console.log('Вы приехали. Добро пожаловать в Моск�
 
 /* или const */
 let fahrenheit = 451;
-let celsius = ((fahrenheit -32) / 1.8);
+let celsius = ((fahrenheit - 32) / 1.8);
 console.log(`${fahrenheit} градуса по Фаренгейту - это ${celsius} градуса по Цельсию.`)
-

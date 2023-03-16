@@ -1,8 +1,24 @@
-console.log(40000 + 22000);
-console.log(`Владивосток ${2000}`)
-console.log((128 + 254 + 137 + 201) / 60);
-console.log(2**5);
-console.log('"Нужно бежать со всех ног, чтобы только оставаться на месте, а чтобы куда-то попасть, надо бежать как минимум вдвое быстрее!"');
+let cleaner = 40000;
+let teacher = 22000;
+console.log(cleaner + teacher);
+
+let city = "Владивосток";
+let number = 2000;
+console.log(city + " " + number);
+
+let messenger = 128,
+photos = 254,
+vk = 137,
+youtube = 201,
+minutesPerHour = 60;
+console.log((messenger + photos + vk + youtube) / minutesPerHour);
+
+let number2 = 2,
+power = 5;
+console.log(number2**power);
+
+let quote = "Нужно бежать со всех ног, чтобы только оставаться на месте, а чтобы куда-то попасть, надо бежать как минимум вдвое быстрее!";
+console.log(quote);
 
 const greetings = "Привет";
 const name = "Кот";
